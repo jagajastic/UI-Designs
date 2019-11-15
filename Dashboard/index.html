@@ -4,7 +4,250 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css" />
     <title>Dashboard</title>
   </head>
-  <body></body>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="hamburger">
+        <div class="hamburger-menu">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <h3 class="title bold">Menu</h3>
+        <div class="search">
+          <span class="search-icon">icon</span>
+          <input
+            class="text bold"
+            type="text"
+            placeholder="Type in to search"
+          />
+        </div>
+      </div>
+      <div class="profile">
+        <span class="profile-icon">
+          icon
+        </span>
+        <div class="avatar">
+          <img src="" alt="avatar" class="avatar-img" />
+        </div>
+        <span class="text bold">Speaker</span>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- main content container -->
+    <div class="container">
+      <main>
+        <!-- navigation -->
+        <nav>
+          <div class="content-flex">
+            <span>icon d</span>
+            <h3 class="text bold">Dashboard</h3>
+          </div>
+          <div class="calendar">
+            <ul>
+              <li><a>Today</a></li>
+              <li class="btn btn-sm"><a>Week</a></li>
+              <li><a>Monnth</a></li>
+              <li><a>Quarter</a></li>
+              <li><a>Year</a></li>
+            </ul>
+          </div>
+          <div class="content-flex">
+            <div class="btn btn-lg">
+              <span>icon</span>
+              <span>24 Mar - 23Apr 2019</span>
+            </div>
+            <div class="content-flex btn btn-md">
+              <span>icon</span>
+              <span>Add Widget</span>
+            </div>
+          </div>
+        </nav>
+        <!-- end of navigation -->
+
+        <!-- card content -->
+        <div class="card-container">
+          <div class="content-flex row">
+            <div class="card card-md">
+              <h3>TIME ON SITE</h3>
+              <div class="graph"></div>
+              <p>Time on site</p>
+            </div>
+            <div class="card card-md">
+              <h3>AGE USERS</h3>
+              <div class="graph">
+                <div class="doughnut">
+                  <div class="doughnut-section"></div>
+                  <div class="doughnut-section"></div>
+                  <div class="doughnut-section"></div>
+                  <div class="doughnut-section"></div>
+                </div>
+                <div>
+                  <ul>
+                    <li>18 - 24 age <i>11.9%</i></li>
+                    <li>25 - 32 age <i>15%</i></li>
+                    <li>35 - 44 age <i>14.9%</i></li>
+                    <li>45 age <i>85.7%</i></li>
+                  </ul>
+                </div>
+                <div class="card-footer">
+                  <span>Users</span>
+                  <span>45</span>
+                </div>
+              </div>
+            </div>
+            <div class="card card-md">
+              <h3>TIME ON SITE</h3>
+              <div class="graph"></div>
+              <p>Time on site</p>
+            </div>
+          </div>
+          <div class="row content-flex">
+            <div class="col">
+              <div class="card card-mdi">
+                <div class="mdi-title">
+                  <h3>TYPE GADJETs</h3>
+                  <div class="options">...</div>
+                </div>
+                <div class="doughnut">
+                  <div class="doughnut-section"></div>
+                  <div class="doughnut-section"></div>
+                  <div class="doughnut-section"></div>
+                  <div class="doughnut-section"></div>
+                </div>
+                <div>
+                  <ul>
+                    <li><em>Desktop Computer </em><i>85.7%</i></li>
+                    <li><em>Smartphone</em> <i>15%</i></li>
+                    <li><em>Tablets</em> <i>8%</i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card card-sm">
+                <div class="col">
+                  <h3>VIEW DEPTH</h3>
+                  <p>3.05</p>
+                  <p>+21.5%</p>
+                </div>
+                <div class="col">
+                  <div class="options">...</div>
+                  <div class="graph"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-sm">
+                <div class="col">
+                  <h3>BOUNCE RATE</h3>
+                  <p>22.8</p>
+                  <p>-2.65%</p>
+                </div>
+                <div class="col">
+                  <div class="options">...</div>
+                  <div class="graph"></div>
+                </div>
+              </div>
+              <div class="card card-mdi">
+                <div class="mdi-title">
+                  <h3>TRAFFIC SOURCES</h3>
+                  <div class="options">...</div>
+                </div>
+                <div class="doughnut">
+                  <div class="doughnut-section"></div>
+                  <div class="doughnut-section"></div>
+                  <div class="doughnut-section"></div>
+                  <div class="doughnut-section"></div>
+                </div>
+                <div>
+                  <ul>
+                    <li><em>Search engines</em><i>85.7%</i></li>
+                    <li><em>Direct clikcs</em> <i>20.9%</i></li>
+                    <li><em>Other website clicks</em> <i>14.9%</i></li>
+                    <li><em>Bookmark clicks</em> <i>11.9%</i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-md">
+                <h3>USERS</h3>
+                <div class="graph">
+                  <div class="doughnut">
+                    <div class="doughnut-section"></div>
+                    <div class="doughnut-section"></div>
+                    <div class="doughnut-section"></div>
+                    <div class="doughnut-section"></div>
+                  </div>
+                  <div>
+                    <ul>
+                      <li>18 - 24 age <i>11.9%</i></li>
+                      <li>25 - 32 age <i>15%</i></li>
+                      <li>35 - 44 age <i>14.9%</i></li>
+                      <li>45 age <i>85.7%</i></li>
+                    </ul>
+                  </div>
+                  <div class="card-footer">
+                    <span>Users</span>
+                    <span>45</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <aside class="container-nav">
+        <div class="menu">
+          <ul>
+            <li>
+              <a href="#"><i>icon</i>Dashboard</a>
+            </li>
+            <li>
+              <a href="#"><i>icon</i>My Reports</a>
+            </li>
+            <li>
+              <a href="#"><i>icon</i>Favorites</a>
+            </li>
+            <li>
+              <a href="#"><i>icon</i>Users</a>
+            </li>
+            <li>
+              <a href="#"><i>icon</i>Settings</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu report-nav">
+          <h4>Standard Reports</h4>
+          <ul>
+            <li>
+              <a href="#"><i>icon</i>Traffic</a>
+            </li>
+            <li>
+              <a href="#"><i>icon</i>Conversions</a>
+            </li>
+            <li>
+              <a href="#"><i>icon</i>Sources</a>
+            </li>
+            <li>
+              <a href="#"><i>icon</i>Content</a>
+            </li>
+            <li>
+              <a href="#"><i>icon</i>Technology</a>
+            </li>
+            <li>
+              <a href="#"><i>icon</i>Monitoring</a>
+            </li>
+          </ul>
+          <div class="btn btn-mdi">
+            Show more
+          </div>
+        </div>
+      </aside>
+    </div>
+    <!-- end of main content -->
+  </body>
 </html>
